@@ -1,0 +1,117 @@
+.{
+    padding: 0px;
+    margin: 0px;
+}
+
+html.body{
+    height: 100%;
+}
+
+
+body {
+    background-color: lightblue;
+    background: linear-gradient(
+        90deg,
+        rgba(200,300,350,1)0%
+        rgba(200,300,280,1)100%
+    );
+  }
+
+
+  .container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    padding-top: 250px;
+  }
+
+
+  .card-body{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    /* margin: 10px; */
+
+  }
+
+
+
+  .card-body h1{
+    margin-bottom:10px ;
+    font-size:60px;
+  }
+
+
+  card-btn button {
+    color:#262626;
+    padding: 100px;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5px;
+    transition: 0.5s;
+  }
+
+
+
+
+  button#decreament {
+    background: #b17eaf;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+
+    
+  }
+
+
+  button#decreament:hover {
+    background: #1b9cedec;
+    color: white;
+    
+
+  }
+
+
+
+
+
+  button#reset {
+    background: #8ddcf6;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  button#reset:hover {
+    background: #df50f8;
+    color: white;
+
+    
+  }
+
+
+
+
+
+
+
+  button#increament {
+    background: #f6e58d;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+
+  button#increament:hover {
+    background: #077d8a;
+    color: white;
+    
+  }
+
+  
+
